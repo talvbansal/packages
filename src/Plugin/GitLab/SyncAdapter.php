@@ -191,7 +191,7 @@ class SyncAdapter implements SyncAdapterInterface
     {
         $config = $this->getRemoteConfig($remote);
 
-        $client = new Client(rtrim($config->getUrl(), '/').'/api/v3/');
+        $client = new Client(rtrim($config->getUrl(), '/').'/api/v4/');
         $client->authenticate($config->getToken(), Client::AUTH_HTTP_TOKEN);
 
         return $client;

@@ -3,6 +3,14 @@
   "description": "Packages extends Composer Satis with a management interface and integrations for GitLab and GitHub",
   "license": "MIT",
   "type": "application",
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/talvbansal/php-gitlab-api"
+    }
+  ],
+
   "require": {
     "php": ">=5.4.0",
     "ext-pcntl": "*",
@@ -21,7 +29,7 @@
     "composer/satis": "dev-master",
     "composer/composer": "1.0.x-dev",
     "sami/sami": "dev-master",
-    "m4tthumphrey/php-gitlab-api": "~7.13",
+    "m4tthumphrey/php-gitlab-api": "v4.x-dev",
     "knplabs/github-api": "~1.4"
   },
   "require-dev": {
@@ -38,6 +46,6 @@
       "dev-2-1-develop": "2.1-dev"
     }
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
