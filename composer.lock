@@ -114,7 +114,7 @@
                 "redis",
                 "resque"
             ],
-            "time": "2015-05-13 11:58:23"
+            "time": "2015-05-13T11:58:23+00:00"
         },
         {
             "name": "colinmollenhour/credis",
@@ -227,7 +227,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2016-01-29 12:58:17"
+            "time": "2016-01-29T12:58:17+00:00"
         },
         {
             "name": "composer/satis",
@@ -288,7 +288,7 @@
                 "repository",
                 "static"
             ],
-            "time": "2016-01-06 07:33:13"
+            "time": "2016-01-06T07:33:13+00:00"
         },
         {
             "name": "composer/semver",
@@ -1399,12 +1399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/talvbansal/php-gitlab-api.git",
-                "reference": "ef7ff2b5e63f41caa5db9d126d93e8c154314237"
+                "reference": "c6c39ee2344c1e69e004f2da45d3f4dcbdc43213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/talvbansal/php-gitlab-api/zipball/ef7ff2b5e63f41caa5db9d126d93e8c154314237",
-                "reference": "ef7ff2b5e63f41caa5db9d126d93e8c154314237",
+                "url": "https://api.github.com/repos/talvbansal/php-gitlab-api/zipball/c6c39ee2344c1e69e004f2da45d3f4dcbdc43213",
+                "reference": "c6c39ee2344c1e69e004f2da45d3f4dcbdc43213",
                 "shasum": ""
             },
             "require": {
@@ -1449,7 +1449,7 @@
             "support": {
                 "source": "https://github.com/talvbansal/php-gitlab-api/tree/v4"
             },
-            "time": "2017-05-25 17:43:04"
+            "time": "2018-03-29T10:46:10+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -1682,7 +1682,7 @@
                 "MIT"
             ],
             "description": "Provides templating support for Nice PHP framework applications",
-            "time": "2015-01-28 00:33:51"
+            "time": "2015-01-28T00:33:51+00:00"
         },
         {
             "name": "nice/twig",
@@ -1727,7 +1727,7 @@
                 "MIT"
             ],
             "description": "Integrates Twig with Nice PHP framework",
-            "time": "2015-01-28 00:34:39"
+            "time": "2015-01-28T00:34:39+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -2007,7 +2007,7 @@
             "keywords": [
                 "phpdoc"
             ],
-            "time": "2016-01-22 07:52:40"
+            "time": "2016-01-22T07:52:40+00:00"
         },
         {
             "name": "seld/cli-prompt",
